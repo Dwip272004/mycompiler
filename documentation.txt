@@ -1,0 +1,12 @@
+define a askjfdk.g4 file
+ install pip install antlr4-tools
+
+ run  antlr4 -Dlanguage=Python3 MISF.g4
+ to create an antlr file
+ 
+
+incase not generation visitor file 
+antlr4 -Dlanguage=Python3 -visitor MISF.g4
+
+run using-
+E:\dwipi>python misf_compiler.py example.misf  
